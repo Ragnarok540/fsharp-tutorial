@@ -29,3 +29,16 @@ let integersAndNumbers =
     let boolean2 = false
     let boolean3 = not boolean1 && (boolean2 || false)
     printfn "Boolean operation: %b\n" boolean3
+
+    let string1 = "Hello"
+    let string2 = "World"
+    let helloWorld = string1 + " " + string2
+    printfn "Concat string: %s\n" helloWorld
+
+    let string3 = @"\hello\"
+    let string4 = """ "world" """
+    let helloWorld2 = string3 + " " + string4
+    printfn "Concat string 2: %s\n" helloWorld2
+
+    let substring = helloWorld.[0..6]
+    printfn "Substring: %s\n" substring
