@@ -1,11 +1,13 @@
-﻿open System
+﻿module program
+
+open System
 open BasicBindings
 open BasicFunctions
-open Tuples
+//open Tuples
 
 [<EntryPoint>]
 let main argv =
     integersAndNumbers
     executeFunctions
-    executeTupleFunctions
+    //executeTupleFunctions
     0

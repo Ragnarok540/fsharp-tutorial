@@ -1,43 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/home/nova/Documents/github/fsharp-tutorial/fsharp-tutorial.fsproj": {}
+    "/Users/nova/Documents/GitHub/fsharp-raytracing/fsharp-raytracing.fsproj": {}
   },
   "projects": {
-    "/home/nova/Documents/github/fsharp-tutorial/fsharp-tutorial.fsproj": {
+    "/Users/nova/Documents/GitHub/fsharp-raytracing/fsharp-raytracing.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nova/Documents/github/fsharp-tutorial/fsharp-tutorial.fsproj",
-        "projectName": "fsharp-tutorial",
-        "projectPath": "/home/nova/Documents/github/fsharp-tutorial/fsharp-tutorial.fsproj",
-        "packagesPath": "/home/nova/.nuget/packages/",
-        "outputPath": "/home/nova/Documents/github/fsharp-tutorial/obj/",
+        "projectUniqueName": "/Users/nova/Documents/GitHub/fsharp-raytracing/fsharp-raytracing.fsproj",
+        "projectName": "fsharp-raytracing",
+        "projectPath": "/Users/nova/Documents/GitHub/fsharp-raytracing/fsharp-raytracing.fsproj",
+        "packagesPath": "/Users/nova/.nuget/packages/",
+        "outputPath": "/Users/nova/Documents/GitHub/fsharp-raytracing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nova/.nuget/NuGet/NuGet.Config"
+          "/Users/nova/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp7.0.0"
+          "net5.0"
         ],
         "sources": {
-          "/usr/share/dotnet/sdk/7.0.100/FSharp/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "netcoreapp7.0.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "netcoreapp7.0.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[7.0.0, )",
+              "version": "[5.0.0, )",
               "generatePathProperty": true
             }
           },
@@ -47,8 +46,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

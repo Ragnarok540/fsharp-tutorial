@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp7.0.0</TargetFramework>
     <RootNamespace>fsharp_tutorial</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="BasicBindings.fs" />
     <Compile Include="BasicFunctions.fs" />
-    <Compile Include="Tuples.fs" />
+    <!--Compile Include="Tuples.fs" /-->
     <Compile Include="Program.fs" />
   </ItemGroup>
 
